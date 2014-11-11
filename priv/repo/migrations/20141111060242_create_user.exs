@@ -4,10 +4,10 @@ defmodule HimerosWeb.Repo.Migrations.CreateUser do
   def up do
     ["CREATE TABLE users(\
         id serial primary key, \
-        password var_char(256), \
-        current_password var_char(256), \
-        email var_char(256), \
-        nick_name var_char(256)"]
+        password varchar(256), \
+        current_password varchar(256), \
+        email varchar(256), \
+        nick_name varchar(256))"]
   end
 
   def down do

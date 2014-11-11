@@ -6,3 +6,8 @@ To start your new Phoenix application:
 2. Start Phoenix router with `mix phoenix.start`
 
 Now you can visit `localhost:4000` from your browser.
+=======
+himeros-web
+===========
+
+Web layer of the Himeros Platform

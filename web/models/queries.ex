@@ -3,7 +3,7 @@ defmodule HimerosWeb.Queries do
 
   def users_query do
     query = from user in HimerosWeb.Users,
-              select :user
+              select: user
     HimerosWeb.Repo.all(query)
   end
 end
